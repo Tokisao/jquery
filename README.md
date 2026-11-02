@@ -3,7 +3,7 @@
 **Student:** Dayana Zharylgapova
 **Group:** SE-2538
 
-[GitHub Pages Link](https://github.com/Tokisao)
+[GitHub Pages Link](https://tokisao.github.io/jquery/)
 
 ## Overview
 A personal portfolio website built with HTML, CSS, and jQuery.
