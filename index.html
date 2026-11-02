@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="main-header">
+    <h1 id="my-name">Dayana Zharylgapova</h1>
+    <p class="headline">Software Engineering Student &amp; Web Tech Learner</p>
+    <p class="intro">
+      Hi! I'm a student at Astana IT University. I love building clean,
+      interactive web pages and I'm currently learning jQuery.
+    </p>
+    <button id="theme-btn">Switch Theme</button>
+  </header>
+
+  <section id="portfolio-section">
+    <h2 class="section-title">Welcome to My Portfolio</h2>
+    <p id="greeting">Hello, visitor!</p>
+    <button id="update-greeting">Update Greeting</button>
+  </section>
+
+  <section class="card">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I'm a passionate beginner developer. I enjoy turning ideas into
+      real, working interfaces.
+    </p>
+
+    <p id="status-message">Currently learning jQuery!<br>It's really hard</p>
+
+    <ul id="fun-facts">
+      <li>I drink too much Coca Cola</li>
+      <li>I play videogames in my free time</li>
+      <li>I want to visit Korea</li>
+    </ul>
+
+    <button id="hide-btn">Hide</button>
+    <button id="show-btn">Show</button>
+    <button id="toggle-btn">Toggle</button>
+  </section>
+
+  <section class="card">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery">
+      <img src="images/profile.jpg" alt="Photo" class="gallery-img" />
+      <img src="images/profile1.jpg" alt="Photo" class="gallery-img" />
+      <img src="images/profile2.jpg" alt="Photo" class="gallery-img" />
+    </div>
+
+    <button id="fade-in-btn">Fade In</button>
+    <button id="fade-out-btn">Fade Out</button>
+    <button id="fade-toggle-btn">Fade Toggle</button>
+  </section>
+
+  <section class="card">
+    <h2 class="section-title">My Favorites</h2>
+
+    <h3 class="slide-heading">🎵 My Favorite Music</h3>
+    <div class="slide-panel">
+      <p>I listen to k-pop, indie rock.</p>
+    </div>
+
+    <h3 class="slide-heading">🎬 My Favorite Movie</h3>
+    <div class="slide-panel">
+      <p>Interstellar — beautiful story, amazing soundtrack.</p>
+    </div>
+
+    <h3 class="slide-heading">📚 My Favorite Subject</h3>
+    <div class="slide-panel">
+      <p>Math — because I love solving problems and searching paradigms.</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 class="section-title">My Technical Skills</h2>
+    <ul id="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>C++</li>
+    </ul>
+
+    <input type="text" id="skill-input" placeholder="Enter a new skill..." />
+    <button id="add-skill">Add Skill</button>
+    <button id="prepend-skill">Prepend Skill</button>
+    <button id="remove-skill">Remove Skill</button>
+  </section>
+
+  <section class="card">
+    <h2 class="section-title">My Social Links</h2>
+    <p>
+      Visit my
+      <a id="social-link" href="https://github.com" target="_blank">GitHub</a>.
+    </p>
+    <button id="change-link-btn">Change Link Destination</button>
+  </section>
+
+  <section class="card">
+    <h2 class="section-title">Contact Me</h2>
+    <form id="contact-form">
+      <label>Name: <input type="text" id="name-input" /></label>
+      <label>Email: <input type="email" id="email-input" /></label>
+    </form>
+    <p id="live-preview">Start typing above...</p>
+  </section>
+
+  <section class="card">
+    <h2 class="section-title">Skill Bars</h2>
+
+    <div class="skill-bar-wrapper">
+      <span class="skill-label">HTML</span>
+      <div class="skill-bar"><div class="fill" data-width="90%"></div></div>
+    </div>
+    <div class="skill-bar-wrapper">
+      <span class="skill-label">CSS</span>
+      <div class="skill-bar"><div class="fill" data-width="80%"></div></div>
+    </div>
+    <div class="skill-bar-wrapper">
+      <span class="skill-label">JavaScript</span>
+      <div class="skill-bar"><div class="fill" data-width="70%"></div></div>
+    </div>
+
+    <button id="animate-btn">Animate My Skills</button>
+  </section>
+
+  <footer>
+    <p>© 2026 Dayana Zharylgapova · Astana IT University</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
